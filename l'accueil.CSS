@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'jost',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+   background-color: whitesmoke;
+   font-family: century;
+   cursor: pointer;
+}
+center{
+   position: absolute;
+   left: 50%;
+   top: 16%;
+   transform: translate(-50%,-50%);
+   font-family: arial;
+   font-size: 0.9rem;
+   text-transform: uppercase;
+}
+span{
+      color:  rgb(86, 86, 240);
+      font-weight: bold;
+}
+/*le logo*/
+.DB{
+   margin: 50px;
+   font-family: arial black;
+   font-size: larger;
+}
+.logo a{
+   color: whitesmoke;
+   padding: 0px 20px;
+   border: 1px solid transparent;
+   position: absolute;
+   top: 10px;
+   left: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 900;
+   font-family: century;
+   background-color: whitesmoke;
+}
+.logo span{
+   color: black;
+   font-weight: bold;
+}
+/*header*/
+header{
+   background-color:  rgb(86, 86, 240);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 50px;
+}
+ /*menu (home..)*/
+ .navmenu{
+    display: flex;
+ }
+ .navmenu div{
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+ }
+ .navmenu a i{
+    font-size: 2px;
+ }
+ .navmenu a{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+ }
+ .navmenu a:hover{
+   border: 1px solid black;
+     margin: 20px;
+     color: black;
+ }
+ /*les icone */
+ .nav-icon{
+    display: flex;
+    align-items: center;
+ }
+ .nav-icon{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+ }
+ .nav-icon a {
+    text-decoration: none;
+    color: black;
+ }
+ .nav-icon a i{
+    margin-right: 10px;
+ }
+ .nav-icon a i:hover{
+    transform: scale(1.1);
+    margin-right: 5px;
+ }
+ .nav-icon div{
+   margin: 10px;
+ }
+ /*Icône menu avec image du header*/
+ .main-home{
+   width: 100%;
+   height: 100vh;
+   background-image: url(image/banner-3.png);
+   background-position: center;
+   background-size: cover;
+   display: grid;
+   align-items: center;
+}
+
+  /*la section texte 1*/
+  section{
+    padding: 5% 10%;
+  }
+  section{
+    margin-top:10%;
+  }
+  /*presentation-section*/
+  /*1- presentation du service*/
+  .entete{
+      margin-top: -2%;
+  }
+  .entete h4{
+    margin-left: 3%;
+  }
+  .entete p{
+   margin-top: -2%;
+   margin-left: 4%;
+ }
+ .entete .center-text p{
+   margin-top: 4px;
+ }
+ .presen{
+   margin-left: 2cm;
+ }
+ .presen .texte{
+    margin-top: -6.8cm;
+ }
+ /* 2- image secton presentation*/
+ .presen .texte .image{
+   border: 2.5px solid  rgb(86, 86, 240);
+   height: 15cm;
+ }
+ .presen .texte nav{
+   
+   margin-left: 12cm;
+   margin-top: -71%;
+ }
+  /*pied de page*/
+      /*premier nav*/
+footer .nav1{
+  text-justify: distribute-all-lines;
+  margin: 3%;
+}
+footer .nav1 .premiertexte{
+   font-size: 1.3rem;
+  
+}
+footer .nav1 .troisiemetexte{
+   font-size: 0.8rem;
+}
+/*deuxieme nav*/
+footer .nav2{
+   margin-left: 40%;
+   margin-top: -23%;
+}
+/*deuxieme nav et image pied de pade*/
+footer .nav2 img{
+   width: 5cm;
+   height: 5cm;
+}
+/*troisieme nav*/
+footer .nav3{
+   text-justify: distribute-all-lines;
+   margin-left: 64%;
+   margin-top: -15%;
+}
+/*quatrieme nav*/
+footer .nav4{
+   margin-left: 80%;
+   margin-top: -16%;
+}
+footer .nav4 p{
+   text-justify: distribute-all-lines;
+}
